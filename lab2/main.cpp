@@ -55,7 +55,7 @@ int main() {
     list<string> studentNamesHistory;
     set<string> availableSpecialties = { "Программная инженерия", "Искусственный интеллект", "Компьютерная инженерия" }; // множество Set
 
-    // Добавим текущее имя в список
+    // добавляем текущее имя в список
     studentNamesHistory.push_back(studentName);
 
     int menuChoice = 0;
